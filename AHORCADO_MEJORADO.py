@@ -4,7 +4,7 @@ def inicio():
     animalesSalvajes = ("elefante", "rinoceronte", "jirafa", "leopardo" )
     animalesDomesticos =("gato", "canario", "perro", "iguana")
     colores= ("azul", "amarillo", "rojo", "negro")
-    vidas=7
+    
     print ("**********************************************************")
     print("JUEGO DEL AHORCADO")
     print("tiene 7 vidas, se descontara 1 vida por cada letra incorrecta.")
