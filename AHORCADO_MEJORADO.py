@@ -129,20 +129,7 @@ def main(palabra):
 
 
                 
-        elif opcion==2:
-            verificacion=adivinarPalabra(palabra, vidas)
-            
-            vidas=verificacion[2]
-            if vidas==0:
-                print ("**********************************************************")
-                opcion=int(input("Ud. perdió todas las vidas \n Desea jugar de nuevo, ingrese (1)\n Si desea salir, ingrese (2)"))
-                print ("**********************************************************")
-                if opcion==1:
-                    inicio()
-                elif opcion==2:
-                    break
-        else:
-            verificacion=(respuesta, False, vidas)
+       
     if verificacion[1] ==True:
         print ("**********************************************************")
         print ('Correcto, adívinó la palabra "{}" y finalizó con  {} corazones'.format("".join(palabra), verificacion[2]))  
